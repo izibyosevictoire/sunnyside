@@ -1,0 +1,67 @@
+
+html.body{
+    margin: 0;
+}
+
+.box{
+
+    height: 100px;
+    width: 100px;
+    /* margin-right: 10px; */
+}
+#box1{
+    background-color: rgb(43, 214, 226);
+}
+#box2{
+    background-color: rgb(226, 177, 43);
+}
+#box3{
+    background-color: blueviolet;
+}
+
+.container{
+display: flex;
+justify-content: space-between;
+}
+
+.navbar{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    align-items: center;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    /* width: 80%; */
+
+}
+.navbar ul li{
+    margin-left: 30px;
+}
+.navbar ul li a{
+  color: brown;  
+  float: right;
+  text-decoration: none;
+}
+.navbar img{
+    width: 100px;
+}
+.form.container{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+.form.container form{
+    width: 300px;
+
+}
+.form.container form div{
+    margin-top: 15px;
+}
+.form.inputs{
+    height: 35px;
+
+}

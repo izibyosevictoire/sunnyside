@@ -1,0 +1,109 @@
+body,
+html {
+    margin: 0px;
+
+    width: 100%;
+}
+
+.ppp {
+    background: url('pk.jpg');
+    background-size: cover;
+height: 150vh;
+}
+
+.bb {
+    display: flex;
+    background-color: rgba(0, 174, 255, 0.486);
+    align-items: flex-end;
+    position: static;
+    padding: 5px 5px;
+    margin: 1px;
+    justify-content: space-between;
+}
+ul {
+    display:flex;
+    justify-content:space-between;
+    padding: 10px;
+    
+}
+.bb ul {
+    list-style: none;
+    display: flex;
+    padding-left: 800px;
+    width: 30%;
+}
+
+.bb ul li {
+    justify-content: center;
+    width: 20px;
+    padding-left: 0%;
+    color: black;
+    display: flex;
+}
+
+.bb ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 25px;
+    background-color: whitesmoke;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+.bb ul li {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px 25px;
+    margin-left: 30px;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 3px;
+    border: 2px solid rgb(252, 249, 249);
+    margin-left: 90px;
+    padding: 30px;
+    margin-top: 80px;
+    border: 3ch; 
+}
+
+.box div button {
+    background-color: rgba(0, 0, 0, 0.541);
+
+}
+/* .box div input{
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 10px; */
+/* } */
+.fun h2 {
+    padding: 30px;
+    margin-left: 40px;
+    text-decoration: none;
+    color: blue;
+}
+.fun h1{
+    padding: 30px;
+margin-left: 90px;
+text-decoration: none;
+color: black;
+}
+.more {
+    display: flex;
+    justify-content: space-between;
+}
+.bold{
+    width: 300px;
+    height: 300px;
+    background-color:  rgba(0, 102, 255, 0.541);
+    margin: 100px;
+    margin-top: 16px;
+    padding: 5px 5px  ;
+    text-align: center;
+}

@@ -1,0 +1,59 @@
+body,
+html {
+    margin: 0px;
+
+    width: 100%;
+}
+.home{
+    background: url('8.jpg');
+    background-size: cover;
+    height: 150vh;
+}
+.bb {
+    display: flex;
+    background-color: rgba(0, 174, 255, 0.486);
+    align-items: flex-end;
+    position: static;
+    padding: 5px 5px;
+    margin: 1px;
+    justify-content: space-between;
+}
+ul {
+    display:flex;
+    justify-content:space-between;
+    padding: 10px;
+    
+}
+.bb ul {
+    list-style: none;
+    display: flex;
+    padding-left: 800px;
+    width: 30%;
+}
+
+.bb ul li {
+    justify-content: center;
+    width: 20px;
+    padding-left: 0%;
+    color: black;
+    display: flex;
+}
+
+.bb ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 25px;
+    background-color: whitesmoke;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+.bb ul li {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px 25px;
+    margin-left: 30px;
+}
